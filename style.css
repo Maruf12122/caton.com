@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #E3FDFD;
+}
+.logo .logolin{
+    height: 100px;
+    width: 200px;
+}
+.nav .navmain{
+    position: absolute;
+    right: 33px;
+    top: 33px;
+}
+.nav .navmain li{
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+}
+.nav .navmain li #home{
+    color: aqua;
+    background-color: #7B66FF;
+    padding: 5px;
+    border-radius: 15px;
+}
+.nav .navmain li a{
+    font-family: 'Yantramanav', sans-serif,Impact,Bold;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav .navmain li a:hover{
+    color: #71C9CE;
+}
+.mo-nav .nl{
+    display: none;
+}
+.mo-nav .close{
+    display: none;
+}
+/* nav finish */
+.ch2{
+    width: 100%;
+    display: flex;
+}
+.s1{
+    align-items: center;
+    justify-content: center;
+}
+.s1 .h1{
+    position: relative;
+    top: 145px;
+    left: 55px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+}
+.s1 .p1{
+    position: relative;
+    top: 160px;
+    left: 55px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5vw;
+}
+.main2{
+    height: 360px;
+    width: 449px;
+    position: relative;
+    left: 16vw;
+    top: 3vw;
+    border:  2px solid #71C9CE;
+}
+.ch3{
+    margin-top: 12vw;
+    display: flex;
+}
+.img2 .main2img{
+    height: 49vw;
+    width: 39vw;
+
+}
+.txt2 .h1c2{
+    font-family: 'Kanit', sans-serif;
+}
+.txt2 .p1c2{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 600px) {
+    .logo .logolin {
+        height: 20vw;
+        width: 35vw;
+    }
+    .navmain{
+        background-color: #71C9CE;
+        display: none;
+        width: 100%;
+        height: 37vw;
+        left: 0vw;
+    }
+    .nav .navmain li{
+        float: none;
+        position: relative;
+        top: -5vw;
+
+    }
+    .bu{
+        border-bottom: 2px solid #dadada;
+    }
+    .nav .navmain li a{
+        position: relative;
+        left: 40vw;
+        top: 8vw;
+    }
+    .navon{
+       display: block;
+    }
+    .mo-nav .nl{
+        font-size: 39px;
+        width: 35px;
+        position: relative;
+        position: relative;
+        left: 90vw;
+        top: -13vw;
+        display: block;
+    }
+    .mo-nav .xm{
+        display: none;
+    }
+    .mo-nav .close{
+        display: none;
+        font-size: 39px;
+        width: 35px;
+        position: relative;
+        position: relative;
+        left: 90vw;
+        top: -13vw;
+    }
+    .mo-nav .open{
+        display: block;
+    }
+    .ch2{
+        width: 100%;
+        display: block;
+    }
+    .ch3 {
+        margin-top: 51vw;
+        display: flex;
+    }
+    .main2{
+    
+        top: 28vw;
+        left: 13vw;
+        
+    }
+    .s1 .h1{
+        width: 72vw;
+    }
+    .s1 .p1 {
+        width: 73vw;
+        position: relative;
+        top: 160px;
+        left: 61px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 3.5vw;
+    }
+}
